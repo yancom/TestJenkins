@@ -1,2 +1,2 @@
 echo "hello"
-echo env.BUILD_NUMBER
+echo $BUILD_NUMBER
