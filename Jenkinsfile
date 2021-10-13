@@ -3,10 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        script{
-          echo 'Building2'
-          sh "dir"
-        }
+        echo 'Building2'
       }
     }
 
