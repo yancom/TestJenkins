@@ -8,4 +8,4 @@ else
   echo "fail"
 fi
 
-echo z
+echo $z
