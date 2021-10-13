@@ -5,6 +5,7 @@ pipeline {
       steps {
         script{
           echo 'Building2'
+          sh 'ls'
         }
       }
     }
