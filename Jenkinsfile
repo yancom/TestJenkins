@@ -4,7 +4,8 @@ pipeline {
     stage('Build') {
       steps {
         script{
-        echo 'Building2'
+          echo 'Building2'
+          sh 'ls'
         }
       }
     }
