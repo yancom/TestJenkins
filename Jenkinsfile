@@ -5,7 +5,7 @@ pipeline {
       steps {
         script{
           echo 'Building2'
-          bat 'ls'
+          bat 'dir'
         }
       }
     }
