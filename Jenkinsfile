@@ -3,8 +3,10 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        echo 'Building'
-        sh ls -la
+        script{
+          echo 'Building'
+          sh ls -la
+        }
       }
     }
 
