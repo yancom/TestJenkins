@@ -4,7 +4,7 @@ x=$BUILD_NUMBER
 
 
 echo "aaaaa11"
-echo echo "$z % 3" | bc` -eq 0 
+echo "$z % 3" | bc` -eq 0 
 echo "aaaaa"
 
 if[ `echo "$z % 3" | bc` -eq 0 ]; then
