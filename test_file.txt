@@ -4,15 +4,15 @@ x=$BUILD_NUMBER
 
 
 echo "aaaaa11"
-echo "$z % 3" | bc` -eq 0 
+rr= "$z % 3" | bc` -eq 0 
 echo "aaaaa"
+echo $rr
+#if[ `echo "$z % 3" | bc` -eq 0 ]; then
+#  echo "great"
+#else
+#  echo "fail"
+#  exit 1
+#
+#fi
 
-if[ `echo "$z % 3" | bc` -eq 0 ]; then
-  echo "great"
-else
-  echo "fail"
-  exit 1
-
-fi
-
-echo $z
+echo "End"
