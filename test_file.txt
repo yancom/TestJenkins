@@ -3,7 +3,7 @@ echo "hello"
 x=$BUILD_NUMBER
 
 var1=10
-var2=20
+var2=%x % 3
 if [ $x -gt $var1 ]; then
    echo "$var2 is greater than $var1"
 else
