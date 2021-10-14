@@ -1,13 +1,13 @@
 echo "hello"
 x=$BUILD_NUMBER
 
-z=($x % 3)
-r=$z % 3
 
-echo $r
+
+
+echo echo "$z % 3" | bc` -eq 0 
 echo "aaaaa"
 
-if[ $($z % 3) == "0" ]; then
+if[ `echo "$z % 3" | bc` -eq 0 ]; then
   echo "great"
 else
   echo "fail"
