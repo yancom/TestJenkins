@@ -8,7 +8,7 @@ echo "aaaaa11"
 #echo "aaaaa"
 echo $rr
 
-if[ $rr>5]; then
+if [ $rr>5] ; then
   echo "great"
 else
   echo "fail"
