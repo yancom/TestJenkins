@@ -2,24 +2,13 @@
 echo "hello"
 x=$BUILD_NUMBER
 
-var1=10
-var2= $(expr $x % 3)
-#if [ $x -gt $var1 ]; then
-#if [ `echo "3 % 2"` -eq 0 ]; then
+
 if [ $(expr $x % 3) == "0" ]; then
    echo "great"
 else
    echo "fail"
+   #  exit 1
 fi
 
-echo "build= $x is greater than $var21"
-
-#if[ `echo "$z % 3" | bc` -eq 0 ]; then
-#  echo "great"
-#else
-#  echo "fail"
-#  exit 1
-#if [ `echo "3 % 2" | bc` -eq 0 ]
-#fi
 
 echo "End"
