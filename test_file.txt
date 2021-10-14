@@ -5,7 +5,7 @@ x=$BUILD_NUMBER
 var1=10
 var2=5
 #if [ $x -gt $var1 ]; then
-if [ `echo "3 % 2" | bc` -eq 0 ]; then
+if [ `echo "3 % 2"` -eq 0 ]; then
    echo "$var2 is greater than $var1"
 else
    echo "fail"
