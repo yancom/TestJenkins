@@ -10,6 +10,8 @@ else
    echo "fail"
 fi
 
+echo "fff $var2 is greater than $var1"
+
 #if[ `echo "$z % 3" | bc` -eq 0 ]; then
 #  echo "great"
 #else
