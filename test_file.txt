@@ -1,7 +1,7 @@
 echo "hello"
 x=$BUILD_NUMBER
 
-z=$x%2
+z=($x % 3)
 if [ $z == 0 ];then
   echo "great"
 else
