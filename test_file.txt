@@ -2,8 +2,12 @@ echo "hello"
 x=$BUILD_NUMBER
 
 z=($x % 3)
+r=$z % 3
 
-if[ $($z % 3) == "0" ];then
+echo $r
+echo "aaaaa"
+
+if[ $($z % 3) == "0" ]; then
   echo "great"
 else
   echo "fail"
