@@ -1,14 +1,12 @@
 echo "hello"
 x=$BUILD_NUMBER
 
-
-
 echo "aaaaa11"
 #rr= 7#"$z % 3" | bc` -eq 0 
 #echo "aaaaa"
 echo $rr
 
-if [ $rr>5]; then
+if [ `echo "3 % 2" | bc` -eq 0 ]; then
   echo "great"
 else
   echo "fail"
