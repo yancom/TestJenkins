@@ -10,8 +10,7 @@ echo $rr
   echo "great"
 else
   echo "fail"
-  exit 1
-
+#  exit 1
 fi
 
 
