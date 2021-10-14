@@ -7,7 +7,7 @@ if [ $(expr $x % 3) == "0" ]; then
    echo "great"
 else
    echo "fail"
-   #  exit 1
+   exit 1
 fi
 
 
