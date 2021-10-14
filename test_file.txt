@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "hello"
+echo ${env.JOB_NAME}
 x=$BUILD_NUMBER
 
 
