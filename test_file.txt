@@ -5,13 +5,14 @@ x=$BUILD_NUMBER
 var1=10
 var2=5
 #if [ $x -gt $var1 ]; then
-if [ `echo "3 % 2"` -eq 0 ]; then
+#if [ `echo "3 % 2"` -eq 0 ]; then
+if [ $(expr $x % 3) != "0" ]; then
    echo "$var2 is greater than $var1"
 else
    echo "fail"
 fi
 
-echo "fff $var2 is greater than $var1"
+echo "build= $x is greater than $var1"
 
 #if[ `echo "$z % 3" | bc` -eq 0 ]; then
 #  echo "great"
